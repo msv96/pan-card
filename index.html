@@ -30,9 +30,8 @@
   <table>
     <thead>
       <tr>
-        <th style="color: white;">Request For New PAN Card Or/And Changes Or Correction in PAN Data<br>
-        <i>Fields marked with <span class="red">*</span> (asterisk) are mandatory. <span style="color: black;">.</span>
-          To avoid mistake(s), prefer refer <a href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html" target="_blank" 
+        <th colspan="4" style="color: white;">Request For New PAN Card Or/And Changes Or Correction in PAN Data<br>
+        <i>Fields marked with <span class="red">*</span> (asterisk) are mandatory. To avoid mistake(s), prefer refer <a href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html" target="_blank" 
           style="color: chocolate;">guidelines</a> and <a href="https://tin.tin.nsdl.com/pan/InstructionsCorr.html" target="_blank" 
           style="color: chocolate;">instructions</a></i></th>
       </tr>
@@ -42,9 +41,11 @@
     <tbody style="background-color: #FFFFDD">
       <tr>
         <td style="width: 2%;"></td>
-        <td><span class="red">*</span><b> Whether Citizen of India &emsp;&emsp;&emsp;&emsp;&emsp;</b>
-          <label for="indian">Yes</label><input type="radio" name="yesno" id="indian" value="yes">&emsp;&emsp;
-          <label for="nonindian">No</label><input type="radio" name="yesno" id="nonindian" value="no">
+        <td><span class="red">*</span><b> Whether Citizen of India</b>
+          <label for="indian" style="padding-left: 100px;">Yes</label>
+          <input type="radio" name="yesno" id="indian" value="yes">
+          <label for="nonindian" style="padding-left: 20px;">No</label>
+          <input type="radio" name="yesno" id="nonindian" value="no">
         </td>
       </tr>
       <tr>
@@ -59,18 +60,28 @@
       <tr>
         <td style="width: 2%;"></td>
         <td><b> Title</b>
-          &emsp;&emsp;<label for="mr">Shri/Mr.</label><input type="radio" name="title" id="mr">
-          &emsp;&emsp;<label for="mr">Smt./Mrs.</label><input type="radio" name="title" id="mrs">
-          &emsp;&emsp;<label for="mr">Kumari/Ms.</label><input type="radio" name="title" id="ms"></td>
+          <label for="mr" style="padding-left: 100px;">Shri/Mr.</label><input type="radio" name="title" id="mr">
+          <label for="mr" style="padding-left: 50px;">Smt./Mrs.</label><input type="radio" name="title" id="mrs">
+          <label for="mr" style="padding-left: 50px;">Kumari/Ms.</label><input type="radio" name="title" id="ms"></td>
       </tr>
       <tr>
         <td style="width: 2%;"></td>
-        <td><b>Last Name/Surname&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          First name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          Middle Name</b><br>
-          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
-          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <input type="text" name="surname" id="sname"></td>
+        <td>
+          <div>
+            <div style="display: inline-block;">
+              <b>Last Name/Surname</b><br>
+              <input type="text" name="lastname" id="lname">
+            </div>
+            <div style="display: inline-block; padding-left: 20%;">
+              <b>First name</b><br>
+              <input type="text" name="firstname" id="fname">
+            </div>
+            <div style="display: inline-block; padding-left: 20%;">
+              <b>Middle Name</b><br>
+              <input type="text" name="middlename" id="mname">
+            </div>
+          </div>
+        </td>
       </tr>
       <tr>
         <td style="width: 2%;"></td>
@@ -94,12 +105,22 @@
       </tr>
       <tr>
         <td style="width: 2%;"></td>
-        <td><b>Last Name/Surname&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          First name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          Middle Name</b><br>
-          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
-          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <input type="text" name="surname" id="sname"></td>
+        <td>
+          <div>
+            <div style="display: inline-block;">
+              <b>Last Name/Surname</b><br>
+              <input type="text" name="lastname" id="lname">
+            </div>
+            <div style="display: inline-block; padding-left: 20%;">
+              <b>First name</b><br>
+              <input type="text" name="firstname" id="fname">
+            </div>
+            <div style="display: inline-block; padding-left: 20%;">
+              <b>Middle Name</b><br>
+              <input type="text" name="middlename" id="mname">
+            </div>
+          </div>
+        </td>
       </tr>
       <tr>
         <td style="width: 2%;"><input type="checkbox" name="mnm" id="mn"></td>
@@ -107,12 +128,22 @@
       </tr>
       <tr>
         <td style="width: 2%;"></td>
-        <td><b>Last Name/Surname&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          First name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          Middle Name</b><br>
-          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
-          <input type="text" name="surname" id="sname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-          <input type="text" name="surname" id="sname"></td>
+        <td>
+          <div>
+            <div style="display: inline-block;">
+              <b>Last Name/Surname</b><br>
+              <input type="text" name="lastname" id="lname">
+            </div>
+            <div style="display: inline-block; padding-left: 20%;">
+              <b>First name</b><br>
+              <input type="text" name="firstname" id="fname">
+            </div>
+            <div style="display: inline-block; padding-left: 20%;">
+              <b>Middle Name</b><br>
+              <input type="text" name="middlename" id="mname">
+            </div>
+          </div>
+        </td>
       </tr>
       <tr>
         <td style="width: 2%;"></td>
@@ -120,7 +151,7 @@
       </tr>
       <tr>
         <td style="width: 2%;"><input type="checkbox" name="dob" id="birthdate"></td>
-        <td><span class="red">*</span><b> 5. Date of Birth/Incorporation/Agreement/Partnership
+        <td colspan="2"><span class="red">*</span><b> 5. Date of Birth/Incorporation/Agreement/Partnership
           or Trust Deed/Formation of Body of Individuals/
           Association of Persons</b></td>
       </tr>
@@ -130,11 +161,11 @@
       </tr>
       <tr>
         <td style="width: 2%;"><input type="checkbox" name="photo" id="photo"></td>
-        <td><b>&nbsp;&nbsp;7. Photo Mismatch</b></td>
+        <td style="padding-left: 11px;"><b>7. Photo Mismatch</b></td>
       </tr>
       <tr>
         <td style="width: 2%;"><input type="checkbox" name="sign" id="signmismatch"></td>
-        <td><b>&nbsp;&nbsp;8. Signature Mismatch</b></td>
+        <td style="padding-left: 11px;"><b>8. Signature Mismatch</b></td>
       </tr>
       <tr>
         <td style="width: 2%;"><input type="checkbox" name="address" id="address1"></td>
