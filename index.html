@@ -344,6 +344,31 @@
           <i>(Country code is compulsory)</i>
         </td>
         <td colspan="3">
+          <table style="margin: 0%; width: 100%;">
+            <tr>
+              <td colspan="2"><label for="isd"> Country Code (ISD) Code </label><br>
+                <select name="isd"  id="isdcode" style="width: 500px;">
+                  <option value=""> -- Please Select -- </option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 50%;">
+                <input type="radio" name="mobile" id="mobno"><label for="mobno">Mobile No.</label>
+              </td>
+              <td>
+                <input type="radio" name="telph" id="teleno"><label for="teleno">Telephone No.</label>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 50%;">
+                <label for="std">Area/STD Code</label><br><input type="text" name="areacode" id="std">
+              </td>
+              <td>
+                <label for="number">Telephone No./Mobile No.</label><br><input type="text" name="telmobno" id="number">
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
       <tr>
@@ -492,8 +517,7 @@
       </tr>
       <tr>
         <td colspan="3">
-          <div style="font-size: 20px; font-family: 'Times New Roman', Times, serif;">
-            For Paperless PAN Application:
+          <div style="font-size: 20px; font-family: 'Times New Roman', Times, serif;">For Paperless PAN Application:
             <input type="radio" name="panapp" id="paperless"><label for="paperless">Yes</label>
             <input type="radio" name="panapp" id="paperless1"><label for="paperless1">No</label>
           </div><br>
